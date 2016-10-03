@@ -21,7 +21,7 @@ div.ex {
 	<h1>Register Form</h1>
 	<div class="ex">
 		<form action="/WebFrameWork/doRegister" method="post">
-			<table cellpadding="5" align="center">
+			<table cellpadding="5" ali	gn="center">
 				<tr>
 					<td colspan="2">
 						<h4>Enter Information Here</h4>

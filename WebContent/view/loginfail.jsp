@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-This is a error page.
-<p> <a href="/WebFrameWork/index.jsp">try agian</a></p>
+<h1>Login Failed: You are not ${customer}.</h1>
+<p> <a href="/WebFrameWork/index.jsp">try again</a></p>
 </body>
 </html>

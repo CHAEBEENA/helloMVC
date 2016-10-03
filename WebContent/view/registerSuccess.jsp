@@ -10,11 +10,19 @@
 </head>
 <body>
 	<%--JSP Expression Language --%>
-	<h1>${customer.name } logged in successfully</h1>
+	<h1>You registered successfully</h1>
+	<ul>
+		<li>id : ${Rcustomer.id }</li>
+		<li>password : ${Rcustomer.password }</li>
+		<li>gender : ${Rcustomer.gender }</li>
+		<li>name : ${Rcustomer.name }</li>
+		<li>email : ${Rcustomer.email }</li>
+
+
+	</ul>
 	<p>
+
 		<a href="/WebFrameWork/index.jsp"> go to home page</a>
 	</p>
-
-
 </body>
 </html>

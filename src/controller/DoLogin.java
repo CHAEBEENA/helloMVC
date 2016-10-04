@@ -39,12 +39,16 @@ public class DoLogin extends HttpServlet {
 		
 		String page;
 		if (customer == null){
+			
 			page = "/view/loginfail.jsp";
 			request.setAttribute("customer", id);
+			
 		}
 		else{
+			
 			page = "/view/loginSuccess.jsp";
 			request.setAttribute("customer", customer);
+			
 		}
 		RequestDispatcher dispatcher = request.getRequestDispatcher(page);
 		dispatcher.forward(request, response);
